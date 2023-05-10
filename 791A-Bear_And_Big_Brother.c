@@ -10,7 +10,8 @@ int main() {
         b *= 2;
         count++;
     }
-    printf("%d", count);
+    printf("%d\n", count);
 
     return 0;
 }
+
