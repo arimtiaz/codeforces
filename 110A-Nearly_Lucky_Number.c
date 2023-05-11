@@ -17,15 +17,13 @@ int main()
             n = n / 10;
         }
 
-        // printf("%d number of lucky digits\n", len);
-
         if (len == 4 || len == 7)
         {
             printf("YES\n");
         }
         else
         {
-            // printf("NO\n");
+            printf("NO\n");
         }
     }
     else
