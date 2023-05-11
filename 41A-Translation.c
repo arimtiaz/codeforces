@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-    char str[100], str2[100];
+    char str[1000], str2[1000];
     scanf("%s", str);
     scanf("%s", str2);
     // char stor[100] = str;
