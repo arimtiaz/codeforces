@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d", &n);
-    // int p[n], q[n];
+    
     int count = 0;
 
 
@@ -11,7 +11,7 @@ int main(){
         int p, q;
         scanf("%d %d", &p, &q);
 
-        if(q > p){
+        if(q - p >= 2){
             count++;
         }
     }
